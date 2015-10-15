@@ -1,1 +1,61 @@
 /* css */
+body{
+    margin:0px;
+    padding:0px;
+    /* background-color:black; */
+}
+
+#header{
+    background-color:gray;   
+    padding:0px;
+    color:white;
+    margin: 20px 80px;
+}
+
+#header h1{
+    padding:20px 40px;
+    margin:0px;
+}
+
+#header h2{
+    background-color:lime;  /*  this changes the background color to lime  */
+}
+
+/*navigation*/
+#nav, #nav a{
+    background-color:#ccc;    /* this changes the background color to #ccc */
+    padding:10px;
+}
+
+#nav a{
+    margin:0px;
+    padding-left:50px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;
+    transition:color 2s, background-color 2s;  /* this transitions text */
+}
+
+#nav a:hover{
+    background-color:#aaaaff;    /* this changes the backgroung color to #aaaaff */
+    color:white;
+    transition:color 2s;
+}
+/*end navigation*/
+
+#spotlight{
+    background-color:pink;
+    padding:20px;
+}
+
+#content{
+    padding:20px 40px;
+    background-color:#eee;
+    margin:0px;
+}
+
+#footer{
+    margin:0px;
+    background-color:black;
+    padding:20px 40px;
+}
