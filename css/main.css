@@ -9,7 +9,6 @@ body{
     background-color:gray;   
     padding:0px;
     color:white;
-    margin: 20px 80px;
 }
 
 #header h1{
@@ -58,4 +57,13 @@ body{
     margin:0px;
     background-color:black;
     padding:20px 40px;
+    color:white;
+}
+
+h2, h3 {
+    font-family:arial;
+}
+
+#page {
+    padding:40px;
 }
