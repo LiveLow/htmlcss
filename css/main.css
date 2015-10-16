@@ -28,7 +28,6 @@ body{
 
 #nav a{
     margin:0px;
-    padding-left:50px;
     color:black;
     font-family:arial;
     text-decoration:none;
@@ -39,6 +38,10 @@ body{
     background-color:#aaaaff;    /* this changes the backgroung color to #aaaaff */
     color:white;
     transition:color 2s;
+}
+
+#nav {
+    padding-left:40px;
 }
 /*end navigation*/
 
